@@ -1,3 +1,8 @@
+li {
+    display: grid;
+    grid-template-rows: auto auto auto;
+}
+
 .post {
     text-align: center;
     width: 282px;
@@ -5,6 +10,7 @@
     border-radius: 0px 0px 10px 10px;
     padding-bottom: 1.5rem;
     transition: transform .2s;
+
 }
 
 .post:hover {
@@ -12,7 +18,7 @@
 }
 
 .capa {
-    width: 100%;
+    width: 50%;
 }
 
 .titulo {
