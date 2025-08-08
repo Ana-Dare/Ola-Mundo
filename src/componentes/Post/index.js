@@ -5,15 +5,15 @@ import BotaoPrincipal from "componentes/BotaoPrincipal";
 export default function Posts({ post }) {
   return (
     <Link to={`/posts/${post.id}`}>
-    <div className={styles.posts}>
-      <img
-        className={styles.capa}
-        src={`/posts/${post.id}/capa.png`}
-        alt="Imagem de capa do post"
-      />
-      <h2 className={styles.titulo}>{post.titulo}</h2>
-      <BotaoPrincipal>Ler</BotaoPrincipal>
-    </div>
+      <div className={styles.postsUnicos}>
+        <img
+          className={styles.capa}
+          src={`/posts/${post.id}/capa.png`}
+          alt="Imagem de capa do post"
+        />
+        <h2 className={styles.titulo}>{post.titulo}</h2>
+        <BotaoPrincipal>Ler</BotaoPrincipal>
+      </div>
     </Link>
   );
 }

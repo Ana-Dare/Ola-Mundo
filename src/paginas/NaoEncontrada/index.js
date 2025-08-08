@@ -17,7 +17,7 @@ export default function NaoEncontrada() {
           Aguarde uns instantes e recarregue a página, ou volte para a página
           inicial.
         </p>
-        <div className={styles.botaoContainer} onClick={() => navegar("-1")}>
+        <div className={styles.botaoContainer} onClick={() => navegar(-1)}>
           <BotaoPrincipal tamanho="lg">Voltar</BotaoPrincipal>
         </div>
         <img
